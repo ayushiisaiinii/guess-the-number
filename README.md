@@ -1,5 +1,9 @@
 # guess-the-number
 check your gut feeling and guess a number
+
+
+
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,7 +55,6 @@ void guess(int N)
 
     } while (user_guess != number);
 }
-
 int main()
 {
     int N = 100;
